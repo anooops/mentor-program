@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T13:47:09.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" version="13.7.6" etag="z0MV2qwlY3_qsAzNeOMU" type="github"><diagram id="791Jf4N24fCv3FX5vumK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-30T14:33:47.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="BoudMpt_4C1V25V_kQPa" version="13.7.6" type="github">
+  <diagram id="791Jf4N24fCv3FX5vumK" name="第1頁">
+    <mxGraphModel dx="888" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="euGkvo4IVcufprUr10zQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-1" target="euGkvo4IVcufprUr10zQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-1" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;answer&lt;/font&gt;&lt;/b&gt;&lt;br&gt;1至100&lt;br&gt;隨機選一個數&lt;br&gt;當作答案" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-2" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;guess&lt;/font&gt;&lt;/b&gt;&lt;br&gt;策略&lt;br&gt;猜（min＋max）/ 2 &amp;nbsp;&lt;br&gt;取整數" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-22" value="IF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-11" target="euGkvo4IVcufprUr10zQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-11" value="&lt;span&gt;guess !== &amp;nbsp;answer&lt;/span&gt;&lt;br&gt;&lt;span&gt;（未猜中則繼續猜）&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="321" y="240" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-13" target="euGkvo4IVcufprUr10zQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-32" value="guess !== answer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="euGkvo4IVcufprUr10zQ-25">
+          <mxGeometry x="-0.2632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-13" target="euGkvo4IVcufprUr10zQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-13" value="&lt;span&gt;guess &amp;gt; answer&lt;br&gt;max -1&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-23" value="ELSE IF" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="euGkvo4IVcufprUr10zQ-15" target="euGkvo4IVcufprUr10zQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-15" value="guess &amp;lt; answer&lt;br&gt;min + 1" style="whiteSpace=wrap;html=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="euGkvo4IVcufprUr10zQ-24" value="guess = answer&lt;br&gt;END" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
